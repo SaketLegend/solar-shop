@@ -1,10 +1,10 @@
 import React from 'react'
-import Engg from '../../assets/Engg.jpg'
-import yrs from '../../assets/ribexp.jpg'
+import Engg from '../../assets/Engg.webp'
+import yrs from '../../assets/ribexp.webp'
 import InstInfo from './InstInfo'
-import img1 from '../../assets/rooftop.jpg'
-import img2 from '../../assets/heat.jpg'
-import img3 from '../../assets/five_hundred.jpg'
+import img1 from '../../assets/rooftop.webp'
+import img2 from '../../assets/heat.webp'
+import img3 from '../../assets/five_hundred.webp'
 
 const Installation = () => {
 

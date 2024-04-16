@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.webp'
 import {Link, NavLink} from 'react-router-dom'
-import menu from '../../assets/more.png'
-import close from '../../assets/close.png'
+import menu from '../../assets/more.webp'
+import close from '../../assets/close.webp'
 
 const Navbar = () => {
 
@@ -46,10 +46,10 @@ const Navbar = () => {
             <ul className='flex flex-row xs:flex-col gap-10 items-center'>
                 <li>
                 <NavLink to="" className={({isActive})=>`font-semibold transition-transform duration-300 transform hover:scale-105 ${isActive ? "text-red-600 text-xl"  : "text-blue-600"} text-md `}
-                >Home1</NavLink> 
+                >Home</NavLink> 
                 </li>
                 <li> <NavLink to="/about" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
-                >About</NavLink> 
+                >About Us</NavLink> 
                 </li>
                 <li> <NavLink to="/contact" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
                 >Contact Us</NavLink> </li>

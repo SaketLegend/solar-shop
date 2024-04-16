@@ -1,6 +1,6 @@
 import React from 'react'
-import Engg from '../../assets/Engg.jpg'
-import yrs from '../../assets/ribexp.jpg'
+import Engg from '../../assets/Engg.webp'
+import yrs from '../../assets/ribexp.webp'
 
 const About = () => {
   return (

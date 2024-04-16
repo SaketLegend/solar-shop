@@ -1,13 +1,13 @@
 import React from 'react';
-import Engg from '../../assets/Engg.jpg';
-import yrs from '../../assets/ribexp.jpg';
+import Engg from '../../assets/Engg.webp';
+import yrs from '../../assets/ribexp.webp';
 import Kncmp from './Kncmp';
-import su1 from '../../assets/stl.png'
-import su2 from '../../assets/stl2.png'
-import ph1 from '../../assets/stl3.png'
-import ph2 from '../../assets/stl4.png'
-import ph3 from '../../assets/ph3.png'
-import ss1 from '../../assets/stl5.png'
+import su1 from '../../assets/stl.webp'
+import su2 from '../../assets/stl2.webp'
+import ph1 from '../../assets/stl3.webp'
+import ph2 from '../../assets/stl4.webp'
+import ph3 from '../../assets/ph3.webp'
+import ss1 from '../../assets/stl5.webp'
 
 
 const Know = () => {
@@ -99,6 +99,7 @@ const Know = () => {
             "Water Tank Stand :  Aluminium Alloy, Thickness : 2.5mm with 32 deg angle.Insulation Material : PUF, Thickness : 50mm.",
             "System with Phoenix Intelligent Solar Controller and Provision of Electrical Heater and Inlet & Outlet with 3/4 Male BSP",
             "System Operational Life : 5 Years",
+            
           ],
         }
       ]

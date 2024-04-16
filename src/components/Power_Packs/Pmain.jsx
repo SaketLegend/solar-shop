@@ -1,17 +1,17 @@
 import React from 'react'
-import Engg from '../../assets/Engg.jpg'
-import yrs from '../../assets/ribexp.jpg'
-import img1 from '../../assets/spp.jpg';
-import img2 from '../../assets/spp1.png'
+import Engg from '../../assets/Engg.webp'
+import yrs from '../../assets/ribexp.webp'
+import img1 from '../../assets/spp.webp';
+import img2 from '../../assets/spp1.webp'
 import Cards from '../Pro_Cards/Product_Card';
-import img3 from '../../assets/spp2.png'
-import img4 from '../../assets/spp3.png'
+import img3 from '../../assets/spp2.webp'
+import img4 from '../../assets/spp3.webp'
 import Ptypes from './Ptypes';
-import img5 from '../../assets/offgrid.jpg'
-import img6 from '../../assets/offgridnew.jpg'
-import img7 from '../../assets/offgrid2.jpg'
-import img8 from '../../assets/netmeter.jpg'
-import img9 from '../../assets/inverters.jpg'
+import img5 from '../../assets/offgrid.webp'
+import img6 from '../../assets/offgridnew.webp'
+import img7 from '../../assets/offgrid2.webp'
+import img8 from '../../assets/netmeter.webp'
+import img9 from '../../assets/inverters.webp'
 
 const Pmain = () => {
 

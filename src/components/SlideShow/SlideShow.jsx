@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import main from '../../assets/main.png';
-import main2 from '../../assets/stl.png';
-import main3 from '../../assets/stl3.png';
-import main4 from '../../assets/stl5.png';
-import main5 from '../../assets/ph3.png';
+import main from '../../assets/main.webp';
+import main2 from '../../assets/stl.webp';
+import main3 from '../../assets/stl3.webp';
+import main4 from '../../assets/stl5.webp';
+import main5 from '../../assets/ph3.webp';
 
 const SlideShow = () => {
     const images = [main, main2, main3, main4, main5];

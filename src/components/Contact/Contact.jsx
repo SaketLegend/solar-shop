@@ -1,7 +1,7 @@
 import React from 'react'
-import Engg from '../../assets/Engg.jpg'
-import yrs from '../../assets/ribexp.jpg'
-import shop from '../../assets/shop.jpg'
+import Engg from '../../assets/Engg.webp'
+import yrs from '../../assets/ribexp.webp'
+import shop from '../../assets/shop.webp'
 
 const Contact = () => {
   return (

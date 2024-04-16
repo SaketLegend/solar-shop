@@ -1,25 +1,27 @@
 import React from 'react'
-import logo2 from '../../assets/Engg.jpg'
-import logo3 from '../../assets/ribexp.jpg'
-import main from '../../assets/main4.png'
+import logo2 from '../../assets/Engg.webp'
+import logo3 from '../../assets/ribexp.webp'
+import main from '../../assets/main4.webp'
 import Cards from '../Pro_Cards/Product_Card'
-import main2 from '../../assets/main2.png'
-import main3 from '../../assets/main3.png'
-import panels from '../../assets/panels.jpeg'
+import main2 from '../../assets/main2.webp'
+import main3 from '../../assets/main3.webp'
+import panels from '../../assets/panels.webp'
 import {Link, NavLink} from 'react-router-dom'
-import s1 from '../../assets/s1.jpg'
-import s2 from '../../assets/s2.jpg'
-import s3 from '../../assets/s3.png'
-import s4 from '../../assets/s4.jpg'
-import s5 from '../../assets/s5.jpg'
-import change from '../../assets/stl.png'
+import s1 from '../../assets/s1.webp'
+import s2 from '../../assets/s2.webp'
+import s3 from '../../assets/s3.webp'
+import s4 from '../../assets/s4.webp'
+import s5 from '../../assets/s5.webp'
+import change from '../../assets/stl.webp'
 import Pros from '../Pros/Pros'
-import l2 from '../../assets/satisfied.png'
-import l1 from '../../assets/best.png'
-import l3 from '../../assets/expertise.png'
+import l2 from '../../assets/satisfied.webp'
+import l1 from '../../assets/best.webp'
+import l3 from '../../assets/expertise.webp'
 import SlideShow from '../SlideShow/SlideShow'
 import Hmlts from '../Home_Lights/Hmlts'
-import mainimg from '../../assets/main.png';
+import mainimg from '../../assets/main.webp';
+import { SlideShowNew } from '../../components/SlideShowNew/SlideShowNew';
+
 
 const Home = () => {
 
@@ -79,22 +81,26 @@ const Home = () => {
   ];
 
   return (
-    <div className='custom-scrollbar-container scrollbar-w-12 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full scrollbar-track-gray-200 scrollbar-thumb-hover:scrollbar-thumb-gray-700 xs:flex flex-col'>
-      <div className='h-[570px]  w-screen overflow-hidden flex flex-col  pt-[80px] pl-[160px] xs:pl-7 xs:flex xs:flex-col xs:pt-[30px]'>
+    <div className='custom-scrollbar-container xs:w-screen scrollbar-w-12 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full scrollbar-track-gray-200 scrollbar-thumb-hover:scrollbar-thumb-gray-700 xs:flex flex-col'>
+      <div className='h-[570px]  w-screen overflow-hidden flex flex-col pt-[80px] pl-[160px] xs:pl-4 xs:flex xs:flex-col xs:pt-[30px]'>
         <div className='flex justify-between xs:flex-col'>
-        <div className='flex flex-col gap-3 xs:gap-2 xs:flex xs:flex-col'>
+        <div className='flex flex-col xs:items-center gap-3 xs:gap-2 xs:flex xs:flex-col'>
+        <div>
         <p className='text-5xl font-semibold text-blue-800 xs:text-3xl'>Sun-powered showers</p>
         <p className='text-xl font-medium xs:text-xl'>Eco-friendly luxury at its finest.</p>
         <p className='text-sm w-[550px] xs:w-[450px]'>Welcome to THE SOLAR SHOP Energy Equipment & Engg. is promoted by professionals having sound technical qualification and vast experience of more than 20 years. The promoters are also trained in solar energy by Renewable Energy Development Agency and Supreme Solar.</p>
-        <div className='hidden xs:flex xs:justify-center xs:pt-5 xs:w-screen xs:items-center xs:pr-10'>
-          <img className='hidden xs:flex xs:w-[250px]' src= {mainimg} alt="" />
+        </div>
+        <div className='hidden xs:flex xs:justify-center xs:w-[250px] xs:pt-5 xs:items-center xs:pr-10'>
+          <SlideShowNew/>
         </div>
         <div className='flex gap-20 mt-[120px] xs:mt-5 xs:flex xs:items-center xs:justify-center'>
           <img className='xs:w-[140px] xs:h-[70px]' src={logo2} alt="" />
           <img className='xs:w-[120px] xs:h-[90px]' src={logo3} alt="" />
         </div>
         </div>
-        <SlideShow/>
+        <div className='mr-[200px] xs:hidden w-[400px] h-[300px] flex items-center justify-center'>
+        <SlideShowNew/>
+        </div>
         </div>
       </div>
       <div className='flex gap-28 justify-center mt-12 mb-12 xs:flex xs:flex-col xs:ml-7 xs:mt-16 xs:gap-16'>

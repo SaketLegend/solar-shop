@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Collapse from 'react-collapse';
-import arrow from '../../assets/arrow.png';
+import arrow from '../../assets/arrow.webp';
 
 const Ptypes = ({ info, index, showButton }) => {
   const [isOpen, setIsOpen] = useState(false);

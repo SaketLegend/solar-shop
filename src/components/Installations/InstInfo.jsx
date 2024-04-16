@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assets/rooftop.jpg'
+import img from '../../assets/rooftop.webp'
 
 const InstInfo = ({info}) => {
   return (

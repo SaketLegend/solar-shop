@@ -15,12 +15,16 @@ const Kncmp = ({ model }) => {
             <p className='text-xl font-medium mb-10 xs:mb-2'>{model.title}</p>
           </div>
         </div>
-        <div className='transition-all w-[320px] h-[400px] py-2 justify-center flex items-center xs:pb-3 xs:left-8 xs:relative xs:flex absolute overflow-y-auto left-[365px]'>
-          <div className='mr-10 absolute top-2 left-0'>
+        <div className='transition-all w-[320px] h-[400px] pb-5 justify-center flex items-center xs:pb-3 xs:left-8 xs:relative xs:flex absolute overflow-y-auto left-[365px]'>
+          <div className='mr-10 absolute top-5 left-0'>
             <ul className='flex flex-col gap-1 list-disc'>
             {model.info.map((item,index) => (
               <li key={index}>
-                {item}
+                {item.includes("SS")?(
+                  <span className='font-bold'>{item}</span>
+                ):(
+                  item
+                )}
               </li>
             ))}
             </ul>

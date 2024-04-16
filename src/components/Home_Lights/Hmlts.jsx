@@ -1,10 +1,10 @@
 import React from 'react'
-import Engg from '../../assets/Engg.jpg'
-import yrs from '../../assets/ribexp.jpg'
-import img1 from '../../assets/solarhomelight.jpg'
-import img2 from '../../assets/solarstreet.png'
-import img3 from '../../assets/solarroadflasher.png'
-import img4 from '../../assets/gardenlight.jpg'
+import Engg from '../../assets/Engg.webp'
+import yrs from '../../assets/ribexp.webp'
+import img1 from '../../assets/solarhomelight.webp'
+import img2 from '../../assets/solarstreet.webp'
+import img3 from '../../assets/solarroadflasher.webp'
+import img4 from '../../assets/gardenlight.webp'
 import { info } from 'autoprefixer';
 import Ptypes from '../Power_Packs/Ptypes';
 
