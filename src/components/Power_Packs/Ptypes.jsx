@@ -37,7 +37,7 @@ const Ptypes = ({ info, index, showButton }) => {
         <p className='text-xl font-medium text-blue-800'>Advantages of {info.title}</p>
       </div>
     <div>
-         <div className='ml-[25px] xs:ml-7 w-[1200px] xs:mr-5 xs:w-[370px] mt-8 flex flex-col gap-4'>
+         <div className='ml-[25px] xs:ml-7 w-[1200px] xs:mr-5 xs:w-[90%] mt-8 flex flex-col gap-4'>
           <p className='text-xl font-medium'>{info.main}</p>
           <p>{info.inf}</p>
           </div>
