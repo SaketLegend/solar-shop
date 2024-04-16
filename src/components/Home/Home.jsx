@@ -88,7 +88,7 @@ const Home = () => {
         <div className='xs:w-screen xs:ml-3 xs:mr-3'>
         <p className='text-5xl font-semibold text-blue-800 xs:text-3xl'>Sun-powered showers</p>
         <p className='text-xl font-medium xs:text-xl'>Eco-friendly luxury at its finest.</p>
-        <p className='text-sm w-[550px] xs:w-[450px]'>Welcome to THE SOLAR SHOP Energy Equipment & Engg. is promoted by professionals having sound technical qualification and vast experience of more than 20 years. The promoters are also trained in solar energy by Renewable Energy Development Agency and Supreme Solar.</p>
+        <p className='text-sm w-[550px]'>Welcome to THE SOLAR SHOP Energy Equipment & Engg. is promoted by professionals having sound technical qualification and vast experience of more than 20 years. The promoters are also trained in solar energy by Renewable Energy Development Agency and Supreme Solar.</p>
         </div>
         <div className='hidden xs:flex xs:justify-center xs:w-[250px] xs:pt-5 xs:items-center xs:pr-10'>
           <SlideShowNew/>
