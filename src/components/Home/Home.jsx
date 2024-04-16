@@ -85,7 +85,7 @@ const Home = () => {
       <div className='h-[570px]  w-screen overflow-hidden flex flex-col pt-[80px] pl-[160px] xs:pl-4 xs:flex xs:flex-col xs:pt-[30px]'>
         <div className='flex justify-between xs:flex-col'>
         <div className='flex flex-col xs:items-center gap-3 xs:gap-2 xs:flex xs:flex-col'>
-        <div className='xs:w-screen xs:ml-3 xs:mr-3'>
+        <div className='xs:w-screen xs:ml-4 xs:mr-3'>
         <p className='text-5xl font-semibold text-blue-800 xs:text-3xl'>Sun-powered showers</p>
         <p className='text-xl font-medium xs:text-xl'>Eco-friendly luxury at its finest.</p>
         <p className='text-sm w-[550px] xs:w-full'>Welcome to THE SOLAR SHOP Energy Equipment & Engg. is promoted by professionals having sound technical qualification and vast experience of more than 20 years. The promoters are also trained in solar energy by Renewable Energy Development Agency and Supreme Solar.</p>
@@ -118,10 +118,10 @@ const Home = () => {
       </div>
       <div className='xs:flex xs:flex-col'>
         <h2 className='mt-[100px] pl-[160px] font-semibold text-3xl text-blue-800 xs:flex xs:justify-center xs:pl-0'>Our Installations</h2>
-        <div className='flex items-center flex-row mt-[80px] xs:flex xs:flex-col'>
-          <img className='w-[700px] h-[380px] rounded-xl pl-[160px] xs:h-[250px] xs:w-[430px] xs:pl-[30px]' src={panels} alt="" />
-          <div className='h-[300px] ml-[100px] bg-gray-500 w-[1.5px] xs:hidden'></div>
-          <div className='flex flex-col items-start ml-7 gap-6'>
+        <div className='flex items-center flex-row mt-[80px] xs:flex xs:items-center xs:justify-center xs:flex-col'>
+          <img className='w-[700px] h-[380px] rounded-xl xs:pl-0 pl-[160px] xs:h-[250px] xs:w-[400px]' src={panels} alt="" />
+          <div className='h-[300px] xs:ml-0 ml-[100px] bg-gray-500 w-[1.5px] xs:hidden'></div>
+          <div className='flex flex-col items-start xs:ml-0 ml-7 gap-6'>
             <p className='font-bold text-2xl xs:mt-10 xs:ml-0'>B. G. Shirke Construction Company</p>
             <p className='w-[450px] font-medium text-md xs:ml-0 xs:w-[300px]'>Mundwa, Site at AWHO, Pune
               30,000. LPD Solar Water Heater for Army Quarters,
