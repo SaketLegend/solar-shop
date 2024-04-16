@@ -41,7 +41,7 @@ const Ptypes = ({ info, index, showButton }) => {
           <p className='text-xl font-medium'>{info.main}</p>
           <p>{info.inf}</p>
           </div>
-          <div className='ml-[25px]  w-[1200px] xs:w-[370px] xs:mr-5 mt-8 flex flex-col gap-4'>
+          <div className='ml-[25px]  w-[1200px] xs:w-[90%] xs:mr-5 mt-8 flex flex-col gap-4'>
           <p className='text-xl font-medium'>{info.main2}</p>
           <p>{info.inf2}</p>
           </div>
