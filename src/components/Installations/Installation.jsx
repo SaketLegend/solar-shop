@@ -31,7 +31,7 @@ const Installation = () => {
 
   return (
     <div className='flex flex-col '>
-      <div className='flex justify-between items-center mr-28 xs:mr-5'>
+      <div className='flex justify-between items-center mr-28 xs:mr-7'>
         <p className='text-4xl font-semibold text-orange-800 pl-[120px] xs:pl-[30px] xs:text-2xl '>Installations</p>
         <div className='flex gap-20 xs:gap-5'>
         <img className='xs:w-[90px] xs:h-[50px]' src={Engg} alt="Energy Engg. and Equip." />

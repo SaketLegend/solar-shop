@@ -5,7 +5,7 @@ import yrs from '../../assets/ribexp.webp'
 const About = () => {
   return (
     <div className='mb-10'>
-      <div className='flex justify-between items-center mr-28 xs:mr-5'>
+      <div className='flex justify-between items-center mr-28 xs:mr-7'>
         <p className='text-4xl font-semibold text-orange-800 pl-[120px] xs:pl-[30px] xs:text-2xl '>About Us</p>
         <div className='flex gap-20 xs:gap-5'>
         <img className='xs:w-[90px] xs:h-[50px]' src={Engg} alt="Energy Engg. and Equip." />
