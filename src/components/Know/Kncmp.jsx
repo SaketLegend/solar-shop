@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Kncmp = ({ model }) => {
 
   return (
-      <div className='bg-orange-100 items-center relative flex h-[400px] duration-300 rounded-xl overflow-hidden transition-all group transform border border-solid border-gray-300 shadow-md w-[350px] hover:w-[90%] xs:flex xs:h-auto xs:pt-0 xs:flex-col xs:mt-5 xs:pl-0 xs:mr-8 xs:relative'>
+      <div className='bg-orange-100 items-center relative flex h-[400px] duration-300 rounded-xl overflow-hidden transition-all group transform border border-solid border-gray-300 shadow-md w-[350px] hover:w-[670px] xs:flex xs:h-auto xs:pt-0 xs:flex-col xs:mt-5 xs:pl-0 xs:mr-8 xs:relative'>
 
         <div
           className={` w-[350px] h-[400px] xs:h-auto mt-12 xs:mt-0 rounded-2xl flex flex-col items-center `}
