@@ -85,7 +85,7 @@ const Home = () => {
       <div className='h-[570px]  w-screen overflow-hidden flex flex-col pt-[80px] pl-[160px] xs:pl-4 xs:flex xs:flex-col xs:pt-[30px]'>
         <div className='flex justify-between xs:flex-col'>
         <div className='flex flex-col xs:items-center gap-3 xs:gap-2 xs:flex xs:flex-col'>
-        <div>
+        <div className='xs:w-screen xs:ml-3 xs:mr-3'>
         <p className='text-5xl font-semibold text-blue-800 xs:text-3xl'>Sun-powered showers</p>
         <p className='text-xl font-medium xs:text-xl'>Eco-friendly luxury at its finest.</p>
         <p className='text-sm w-[550px] xs:w-[450px]'>Welcome to THE SOLAR SHOP Energy Equipment & Engg. is promoted by professionals having sound technical qualification and vast experience of more than 20 years. The promoters are also trained in solar energy by Renewable Energy Development Agency and Supreme Solar.</p>
@@ -93,9 +93,9 @@ const Home = () => {
         <div className='hidden xs:flex xs:justify-center xs:w-[250px] xs:pt-5 xs:items-center xs:pr-10'>
           <SlideShowNew/>
         </div>
-        <div className='flex gap-20 mt-[120px] xs:mt-5 xs:flex xs:items-center xs:justify-center'>
-          <img className='xs:w-[140px] xs:h-[70px]' src={logo2} alt="" />
-          <img className='xs:w-[120px] xs:h-[90px]' src={logo3} alt="" />
+        <div className='flex gap-20 mt-[120px] xs:mt-8 xs:flex xs:items-center xs:justify-center'>
+          <img className='xs:w-[120px] xs:h-[70px]' src={logo2} alt="" />
+          <img className='xs:w-[100px] xs:h-[90px]' src={logo3} alt="" />
         </div>
         </div>
         <div className='mr-[200px] xs:hidden w-[400px] h-[300px] flex items-center justify-center'>

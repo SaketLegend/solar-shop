@@ -37,11 +37,11 @@ const Hmlts = () => {
 
   return (
     <div>
-      <div className='flex justify-between items-center mr-28 xs:mt-5 xs:flex xs:items-center xs:justify-center xs:mr-4'>
-        <p className='text-4xl font-semibold text-orange-800 pl-[120px] xs:pl-[30px] xs:flex xs:justify-between xs:text-3xl'>Solar Home Lights</p>
-        <div className='flex gap-20 xs:gap-9'>
-          <img className='xs:w-[90px] xs:h-[50px]' src={Engg} alt="Energy Engg. and Equip." />
-          <img className='xs:w-[90px] xs:h-[50px]' src={yrs} alt="Energy Engg. and Equip." />
+      <div className='flex justify-between items-center mr-28 xs:mr-5'>
+        <p className='text-4xl font-semibold text-orange-800 pl-[120px] xs:pl-[30px] xs:text-2xl '>Solar Lighting System</p>
+        <div className='flex gap-20 xs:gap-5'>
+        <img className='xs:w-[90px] xs:h-[50px]' src={Engg} alt="Energy Engg. and Equip." />
+        <img className='xs:w-[90px] xs:h-[50px]' src={yrs} alt="Energy Engg. and Equip." />
         </div>
       </div>
 
