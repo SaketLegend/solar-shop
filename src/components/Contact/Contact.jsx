@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='flex justify-between items-center pl-20 xs:flex-col xs:pl-3'>
-        <div className='flex flex-col w-1/2 xs:w-full xs:items-center justify-center items-start  mt-24 xs:mt-16 xs:flex-col mb-20 xs:mb-10'>
+        <div className='flex flex-col w-1/2 xs:w-[90%] xs:items-center justify-center items-start  mt-24 xs:mt-16 xs:flex-col mb-20 xs:mb-10'>
           <img className='w-[500px] mr-11 xs:mr-0 xs:mt-12 xs:w-full rounded-lg' src={shop} alt="" />
           <div className='w-[500px] mr-[200px] xs:mr-0 gap-5 xs:w-full mt-5'>
             <p className='text-3xl xs:text-2xl font-semibold text-blue-800'>THE SOLAR SHOP</p>
@@ -23,7 +23,7 @@ const Contact = () => {
             <p>Email Id: sales@thesolarshop.in</p>
           </div>
         </div>
-<div className='w-1/2 xs:w-full justify-center items-center'>
+<div className='w-1/2 xs:w-[90%] justify-center items-center'>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.3187457486537!2d74.59463253496423!3d16.84866758761574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1232be11208c3%3A0x15b375b0ae762309!2sThe%20Solar%20Shop%2C%20Energy%20Equipment%20%26%20Engg!5e0!3m2!1sen!2sin!4v1713198870582!5m2!1sen!2sin"  className='rounded-lg border border-slate-500 shadow-md w-[600px] h-[600px] xs:w-full xs:h-[400px] xs:mb-10' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 </div>
       </div>
