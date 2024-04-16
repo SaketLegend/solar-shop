@@ -13,7 +13,7 @@ const Contact = () => {
         <img className='xs:w-[90px] xs:h-[50px]' src={yrs} alt="Energy Engg. and Equip." />
         </div>
       </div>
-      <div className='flex justify-between items-center pl-20 xs:flex-col xs:pl-3'>
+      <div className='flex justify-between items-center pl-20 xs:flex-col xs:pl-0'>
         <div className='flex flex-col w-1/2 xs:w-[90%] xs:items-center justify-center items-start  mt-24 xs:mt-16 xs:flex-col mb-20 xs:mb-10'>
           <img className='w-[500px] mr-11 xs:mr-0 xs:mt-12 xs:w-full rounded-lg' src={shop} alt="" />
           <div className='w-[500px] mr-[200px] xs:mr-0 gap-5 xs:w-full mt-5'>

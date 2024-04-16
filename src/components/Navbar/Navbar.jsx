@@ -45,13 +45,13 @@ const Navbar = () => {
             </button>
             <ul className='flex flex-row xs:flex-col gap-10 items-center'>
                 <li>
-                <NavLink to="" className={({isActive})=>`font-semibold transition-transform duration-300 transform hover:scale-105 ${isActive ? "text-red-600 text-xl"  : "text-blue-600"} text-md `}
+                <NavLink onClick={toggle} to="" className={({isActive})=>`font-semibold transition-transform duration-300 transform hover:scale-105 ${isActive ? "text-red-600 text-xl"  : "text-blue-600"} text-md `}
                 >Home</NavLink> 
                 </li>
-                <li> <NavLink to="/about" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
+                <li> <NavLink onClick={toggle} to="/about" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
                 >About Us</NavLink> 
                 </li>
-                <li> <NavLink to="/contact" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
+                <li> <NavLink onClick={toggle} to="/contact" className={({isActive})=>`${isActive ? "text-red-600 text-xl" : "text-blue-600"} font-semibold transition-transform duration-300 transform hover:scale-105 text-md`}
                 >Contact Us</NavLink> </li>
             </ul>
         </div>
