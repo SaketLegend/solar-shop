@@ -88,9 +88,9 @@ const Pmain = () => {
         </div>
       </div>
     <div className='xs:items-center xs:flex xs:flex-col'>
-      <div className=' ml-[120px] rounded-xl mb-12 shadow-md h-[300px] w-[1270px] mt-16 bg-blue-400 flex justify-center items-center gap-11 xs:flex-col xs:w-[90%] xs:h-auto xs:gap-5 xs:ml-0'>
-        <img className='xs:w-[80%] xs:pt-5' src={img1} alt="" />
-        <div className='w-[650px] gap-2 flex flex-col xs:w-[90%] xs:mb-4'>
+      <div className=' ml-[5%] rounded-xl mb-12 shadow-md h-auto pb-5 pt-5 xs:pt-0 xs:pb-0 w-[90%] mt-16 bg-blue-400 flex justify-center items-center gap-11 xs:flex-col xs:w-[90%] xs:h-auto xs:gap-5 xs:ml-0'>
+        <img className='xs:w-[80%] xs:pt-5 pl-7 xs:pl-0' src={img1} alt="" />
+        <div className='w-[90%] gap-2 flex flex-col xs:w-[90%] xs:mb-4'>
         <p className='text-white'>Choosing to go solar is not just about energy economics; it is about taking part in the fight against global warming and climate change. Responsible, sustainable businesses are discovering that the bottom-line is not just about people and profits anymore. It is also about the planet. Solar energy's reduced operating costs, good return on investments and negligible maintenance have a very positive impact on the bottom-line and greater impact on the environment. Demonstrating environmental leadership pays great dividends.
         </p>
         <p className='text-white'>Businesses look at solar energy as a sustainable source for generating their own green energy. It not only meets their energy needs but also helps reduce their carbon footprint. We have experience in designing, manufacturing and executing customized solar solutions for disparate sectors such as telecom, oil & gas, education, healthcare, IT companies, roads & highways, railways, banking, etc.</p>
