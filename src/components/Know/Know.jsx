@@ -133,9 +133,9 @@ const Know = () => {
 
       <div className='flex flex-col items-center'>
         {models.map((model, index) => (
-          <div className={`${model.color} xs:flex xs:flex-col xs:w-[400px] xs:pl-[10px] flex flex-wrap rounded-xl pt-[30px]  w-screen h-auto pb-[30px]  pl-[120px] mt-12`} key={index}>
+          <div className={`${model.color} xs:flex xs:flex-col xs:w-[400px] xs:pl-[20px] flex flex-wrap rounded-xl pt-[30px]  w-screen h-auto pb-[30px]  pl-[120px] mt-12`} key={index}>
             <h1 className='font-medium  text-3xl xs:text-2xl'>{index + 1}. {model.name} Solar</h1>
-            <div className='flex w-full items-center justify-center flex-wrap gap-12 pr-[200px] px-32 xs:pr-[90px] xs:w-[500px] xs:pl-0 xs:pt-0 xs:flex xs:items-center xs:justify-center'>
+            <div className='flex w-full items-center justify-center flex-wrap gap-12 pr-[200px] px-32 xs:pr-[110px] xs:w-[500px] xs:pl-0 xs:pt-0 xs:flex xs:items-center xs:justify-center'>
               {model.data.map((item, index) => (
                 <Kncmp model={item} key={index}/>
               ))}
