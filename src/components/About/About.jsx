@@ -18,7 +18,7 @@ const About = () => {
         <p className='mt-4'>Energy Equipment & Engg is Authorized Dealer of Supreme Solar, Sunstrom Solar and other Reputed – MNRE approved manufacturers for state of South Maharashtra, deals in solar water Heating Systems for Industrial as well as Domestic Applications and Solar Photovoltaic Systems such as Solar Home light systems, Solar Power packs, Solar Grid Tie systems and many more.</p>
         <p className='mt-4'>Where no grid system is in place, it is most likely that power will be provided to communities through local energy generation systems rather than installing the grid systems of the past. Over the past 20 years, solar has proven itself time and time again in meeting the needs of such rural communities in many countries. From Africa to Asia, from America to the Pacific, solar power continues to improve the lives of millions of people.</p>
         <div className='mt-10'>
-            <p className='text-2xl xs:text-xl font-medium'>Our Promoters Team</p>
+            <p className='text-2xl xs:text-xl font-medium'>Our Promoters</p>
             <div className='flex flex-row justify-around mt-8'>
                 <p className='text-xl text-orange-700 font-normal xs:text-md xs:pl-1'>Mr.Mohan Patil</p>
                 <p className='text-xl text-orange-700 font-normal xs:text-md'>Mr.Prashant Patil</p>
