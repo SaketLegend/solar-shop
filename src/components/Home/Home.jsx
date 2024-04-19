@@ -141,12 +141,12 @@ const Home = () => {
       </div>
       <div>
         <p className='mt-[100px] pl-[160px] font-semibold text-3xl text-blue-800 xs:flex xs:justify-center xs:w-screen xs:pl-0'>Companies We Represent</p>
-        <div className='flex mt-[80px] justify-center gap-[5%] mb-32 xs:flex xs:flex-col xs:items-center'>
-          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick} src={s1} alt="Supreme Solar" />
-          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick2} src={s2} alt="Sunstorm Solar" />
-          <img className='w-[150px] transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick3} src={s3} alt="Pheonix Solar" />
-          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick4} src={s4} alt="Surana Solar" />
-          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick5} src={s5} alt="Vikram Solar" />
+        <div className='flex mt-[80px] justify-center xs:gap-[30px] gap-[5%] mb-32 xs:flex xs:flex-col xs:items-center'>
+          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[170px]' onClick={handleClick} src={s1} alt="Supreme Solar" />
+          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[170px]' onClick={handleClick2} src={s2} alt="Sunstorm Solar" />
+          <img className='w-[150px] transition-transform duration-300 transform hover:scale-105 xs:w-[200px]' onClick={handleClick3} src={s3} alt="Phoenix Solar" />
+          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[170px]' onClick={handleClick4} src={s4} alt="Surana Solar" />
+          <img className='transition-transform duration-300 transform hover:scale-105 xs:w-[170px]' onClick={handleClick5} src={s5} alt="Vikram Solar" />
         </div>
       </div>
     </div>
