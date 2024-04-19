@@ -21,9 +21,13 @@ import SlideShow from '../SlideShow/SlideShow'
 import Hmlts from '../Home_Lights/Hmlts'
 import mainimg from '../../assets/main.webp';
 import { SlideShowNew } from '../../components/SlideShowNew/SlideShowNew';
+import {motion} from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 
 
 const Home = () => {
+  const { ref: ref1, inView: inView1 } = useInView();
+  const { ref: ref2, inView: inView2 } = useInView();
 
   const handleClick = () => {
     window.open('https://supremesolar.in/', '_blank'); // Replace 'https://example.com' with the actual URL
@@ -98,9 +102,9 @@ const Home = () => {
           <img className='xs:w-[100px] xs:h-[70px]' src={logo3} alt="" />
         </div>
         </div>
-        <div className='mr-[10%] xs:hidden w-[400px] h-[300px] flex items-center justify-center'>
+        <motion.div animate = {{x:-100}} className='mr-[2%] xs:hidden w-[400px] h-[300px] flex items-center justify-center'>
         <SlideShowNew/>
-        </div>
+        </motion.div>
         </div>
       </div>
       <div className='flex gap-[8%] justify-center mt-12 mb-12 xs:flex xs:flex-col xs:ml-7 xs:mt-16 xs:gap-16'>
@@ -110,15 +114,15 @@ const Home = () => {
       </div>
       <div className='gap-7 xs:flex xs:flex-col flex flex-col xs:items-center xs:mr-0'>
         <p className='xs:flex xs:justify-center mt-[100px] pl-[160px] font-semibold text-3xl text-blue-800 xs:mt-[60px] xs:ml-0 xs:pl-0'>Our Products</p>
-        <div className='flex justify-center gap-11 mt-12 xs:flex xs:flex-col xs:justify-center xs:items-center'>
+        <motion.div ref={ref1}  animate={{ opacity: inView1 ? 1 : 0, y: inView1 ? 0 : 50 }}className='flex justify-center gap-11 mt-12 xs:flex xs:flex-col xs:justify-center xs:items-center'>
           {data.map((item,index)=>(
             <Cards data={item} key={index} showButton={true}/>
           ))}
-        </div>
+        </motion.div>
       </div>
       <div className='xs:flex xs:flex-col'>
         <h2 className='mt-[100px] pl-[10%] font-semibold text-3xl text-blue-800 xs:flex xs:justify-center xs:pl-0'>Our Installations</h2>
-        <div className='flex items-center flex-row mt-[80px] xs:flex xs:items-center xs:justify-between xs:flex-col'>
+        <motion.div ref={ref2}  animate={{ opacity: inView2 ? 1 : 0, y: inView2 ? 0 : 50 }} className='flex items-center flex-row mt-[80px] xs:flex xs:items-center xs:justify-between xs:flex-col'>
           <img className='w-[700px] h-[380px] rounded-xl xs:pl-0 pl-[10%] xs:h-[250px] xs:w-[370px]' src={panels} alt="" />
           <div className='h-[300px] xs:ml-0 ml-[100px] bg-gray-500 w-[1.5px] xs:hidden'></div>
           <div className='flex xs:w-[90%] mr-[10%] xs:mr-0 flex-col items-start xs:ml-0 ml-7 gap-6'>
@@ -133,7 +137,7 @@ const Home = () => {
                 </button>
               </NavLink>
           </div>
-        </div>
+        </motion.div>
       </div>
       <div>
         <p className='mt-[100px] pl-[160px] font-semibold text-3xl text-blue-800 xs:flex xs:justify-center xs:w-screen xs:pl-0'>Companies We Represent</p>

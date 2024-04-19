@@ -13,6 +13,7 @@ import img7 from '../../assets/offgrid2.webp'
 import img8 from '../../assets/netmeter.webp'
 import img9 from '../../assets/inverters.webp'
 import img from '../../assets/200w.gif'
+import { motion } from 'framer-motion';
 
 const Pmain = () => {
 
@@ -89,7 +90,7 @@ const Pmain = () => {
         </div>
       </div>
     <div className='xs:items-center flex justify-center items-center xs:flex xs:flex-col xs:ml-0 ml-[15%]'>
-      <div className=' ml-[5%] rounded-tr-xl rounded-br-xl xs:rounded-xl mb-12 relative shadow-md h-auto pb-5 pt-5 xs:pt-0 xs:pb-0 w-[50%] mt-16 bg-blue-400 flex justify-center items-center gap-11 xs:flex-col xs:w-[90%] xs:h-auto xs:gap-5 xs:ml-0'>
+      <motion.div animate={{x:-80}} className=' ml-[15%] rounded-tr-xl rounded-br-xl xs:rounded-xl mb-12 relative shadow-md h-auto pb-5 pt-5 xs:pt-0 xs:pb-0 w-[50%] mt-16 bg-blue-400 flex justify-center items-center gap-11 xs:flex-col xs:w-[90%] xs:h-auto xs:gap-5 xs:ml-0'>
         <img className='hidden xs:flex xs:w-[80%] xs:pt-5 pl-7 xs:pl-0' src={img} alt="" />
         <div className='w-[90%] gap-2 flex pl-28 xs:pl-0 flex-col xs:w-[90%] xs:mb-4'>
         <p className='text-white'>Choosing to go solar is not just about energy economics; it is about taking part in the fight against global warming and climate change. Responsible, sustainable businesses are discovering that the bottom-line is not just about people and profits anymore. It is also about the planet. Solar energy's reduced operating costs, good return on investments and negligible maintenance have a very positive impact on the bottom-line and greater impact on the environment.</p>
@@ -101,9 +102,9 @@ const Pmain = () => {
         <p className='text-white'>4. Sending Excess Electricity to Government Grid</p>
         <p className='text-white'>5. Interaction with Government or Utility</p>
         </div>
-      </div>
-      <div className='w-[33%] mt-4 bg-cover absolute xs:hidden h-[420px] left-[13%] rounded-full border-white border-[30px]' style={{backgroundImage:`url(${img})`}}>
-      </div>
+      </motion.div>
+      <motion.div animate = {{x:80}} className='w-[33%] mt-4 bg-cover absolute xs:hidden h-[420px] left-[7%] rounded-full border-white border-[30px]' style={{backgroundImage:`url(${img})`}}>
+      </motion.div>
     </div>
     <div className='mt-10 mr-3 flex justify-center gap-16 xs:flex-col xs:items-center xs:gap-10'>
       {data.map((item, index)=> (
