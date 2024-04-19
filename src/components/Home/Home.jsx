@@ -98,7 +98,7 @@ const Home = () => {
           <SlideShowNew/>
         </div>
         <div className='flex gap-20 mt-[120px] xs:mt-8 xs:flex xs:items-center xs:justify-center'>
-          <img className='xs:w-[120px] xs:h-[70px]' src={logo2} alt="" />
+          <img className='xs:w-[100px] xs:h-[70px]' src={logo2} alt="" />
           <img className='xs:w-[100px] xs:h-[70px]' src={logo3} alt="" />
         </div>
         </div>

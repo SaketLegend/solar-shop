@@ -19,10 +19,9 @@ const About = () => {
         <p className='mt-4'>Where no grid system is in place, it is most likely that power will be provided to communities through local energy generation systems rather than installing the grid systems of the past. Over the past 20 years, solar has proven itself time and time again in meeting the needs of such rural communities in many countries. From Africa to Asia, from America to the Pacific, solar power continues to improve the lives of millions of people.</p>
         <div className='mt-10'>
             <p className='text-2xl xs:text-xl font-medium'>Our Promoters Team</p>
-            <div className='flex flex-row justify-between mt-8'>
-                <p className='text-xl text-orange-700 font-normal pl-32 xs:text-md xs:pl-1'>Mr.Mohan Patil</p>
+            <div className='flex flex-row justify-around mt-8'>
+                <p className='text-xl text-orange-700 font-normal xs:text-md xs:pl-1'>Mr.Mohan Patil</p>
                 <p className='text-xl text-orange-700 font-normal xs:text-md'>Mr.Prashant Patil</p>
-                <p className='text-xl text-orange-700 font-normal pr-32 xs:text-md xs:pr-1'>Mr. Vijay Padale</p>
             </div>
         </div>
         <p className='mt-10'>For millions of years, the sun has powered the world. And for a over a decade now Energy Equipment & Engg. has helped people harness this power, with the range of packaged products some of the products are given below. Please click</p>

@@ -37,12 +37,12 @@ const Know = () => {
       ]
     },
     {
-      name: "Pheonix",
+      name: "Phoenix",
       color: "bg-gray-100",
       data: [
         {
           img: ph2,
-          title: "Pheonix Diamond",
+          title: "Phoenix Diamond",
           info: [
             "Available in 125/175/225/275/325 LPD for domestic applications and Industrial applications.",
             "Inner of Water Tank : 0.60mm Thick, Side-dish : 1mm, Stainless Steel 316 L grade.",
@@ -55,7 +55,7 @@ const Know = () => {
         },
         {
           img: ph1,
-          title: "Pheonix Platinum",
+          title: "Phoenix Platinum",
           info: [
             "Available in 125/175/225/275/325 LPD for domestic and commercial applications.",
             "Inner of Water Tank : 0.60mm Thick, Side-dish : 1mm, Stainless Steel 316 L grade.",
@@ -67,7 +67,7 @@ const Know = () => {
         },
         {
           img: ph2,
-          title: "Pheonix Premium",
+          title: "Phoenix Premium",
           info: [
             "Available in 100/150/200/250/300 LPD for domestic and commercial applications.",
             "Inner of Water Tank : 0.50mm Thick Stainless Steel 316 L grade.",
@@ -79,7 +79,7 @@ const Know = () => {
         },
         {
           img: ph1,
-          title: "Pheonix Standard",
+          title: "Phoenix Standard",
           info: [
             "Available in 100/150/200/250/300 LPD for domestic and commercial applications.",
             "Inner of Water Tank : 0.50mm Thick Stainless Steel 316 L grade.",
@@ -91,7 +91,7 @@ const Know = () => {
         },
         {
           img: ph3,
-          title: "Pheonix Standard",
+          title: "Phoenix Standard",
           info: [
             "Available in 200 LPD for domestic and commercial applications.",
             "Inner of Water Tank : Modified PolyPropylene (MPP), Thickness : 4mm",

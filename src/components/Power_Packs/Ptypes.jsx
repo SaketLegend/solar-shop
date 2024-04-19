@@ -20,7 +20,7 @@ const Ptypes = ({ info, index, showButton }) => {
           <div className='w-[270px]'>
           <img src={info.img} alt='' />
           </div>
-          <p className='w-[80%] text-md xs:w-[90%]'>{info.in}</p>
+          <p className='w-[75%] text-md xs:w-[90%]'>{info.in}</p>
           {info.showButton && (<motion.div whileHover={{scale: 1.2}} className='xs:bg-slate-300 bg-slate-300 w-[80px] h-[80px] xs:w-[150px] flex items-center justify-center  rounded-full s:flex xs:pl-0 xs:rounded-full xs:items-center xs:justify-around xs:h-[35px] mr-[2%]'>
           <button onClick={toggleCollapse} className='w-[50px] pl-[200px] xs:pl-0 relative'>
           <img
